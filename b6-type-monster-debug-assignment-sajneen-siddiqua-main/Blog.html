@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <html data-theme="retro"></html>
+</head>
+<body>
+    <section class="mt-12">
+        <h1 class="text-4xl text-center"><strong>~Blog Section~</strong></h1>
+    </section>
+    <section class="text-gray-600 body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="-my-8 divide-y-2 divide-gray-100">
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-gray-700">Local storage VS Session storage</span>
+                <span class="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                 Difference between session storage and local storage
+                </h2>
+                <p class="leading-relaxed"><strong>Session storage :</strong> <br>
+                    1)Stores data in browser for a session. <br>
+                    2)Saves data in key value pairs in the browser. <br>
+                    3)Data is deleted when the browser is closed. <br>
+                    4)Data is not available for future session.
+                </p>
+                <p class="leading-relaxed"><strong>Local storage :</strong> <br>
+                    1)Stores data in browser without any expiration date. <br>
+                    2)Saves data in key value pairs in the browser. <br>
+                    3)Data is not deleted when the browser is closed. <br>
+                    4)Data is available for future session.
+                </p>
+              </div>
+            </div>
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-gray-700">Global scope VS Block scope</span>
+                <span class="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">Difference between global scope and block scope</h2>
+
+                <p class="leading-relaxed"><strong>Global Scope:</strong>
+                    The variables defined outside of any function or curly brackets are known as global variables and have global scope. Global scope means that the variables can be accessed from any part of that program, any function or conditional state can access that variable.</p>
+                <p class="leading-relaxed"><strong>Block Scope:</strong>
+                    Block scope is also a sub-type of local scope. The block scope can be defined as the scope of the variables inside the curly brackets {}. Now, these curly brackets can be of loops, or conditional statements, or something else. You are only allowed to refer to these variables from within the curly brackets {}.</p>
+                
+              </div>
+            </div>
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-gray-700">Event Loop</span>
+                <span class="text-sm text-gray-500">12 Jun 2019</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2"> How javascript event loop works</h2>
+
+                <p class="leading-relaxed">The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop.</p>
+              </div>
+            </div>
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-gray-700">undefined</span>
+                <span class="text-sm text-gray-500">12 Jun 2019</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-gray-900 title-font mb-2"> 8 Ways that give you undefined</h2>
+
+                <p class="leading-relaxed"> 1)variable that is not initialized will give you undefined. <br>
+                    2)function with no return will give you undefined. <br>
+                    3)parameter that is not passed will be undefined. <br>
+                    4)if return has nothing on the right side will return undefined. <br>
+                    5)property that doesn't exits on an object will give you undefined. <br>
+                    6)accessing array elements outside of the index range will give you undefined. <br>
+                    7)deleting an element inside an array will give you undefined. <br>
+                    8)set a value directly to undefined.
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
